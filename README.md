@@ -15,10 +15,9 @@ Permite listar, buscar e visualizar detalhes de cada Pokémon de forma simples e
 
 ## ⚙️ Instruções de instalação e execução
 
-### 1️⃣ Clonar o repositório
 ```bash
-git clone https://github.com/usuario/pokecatalogo.git
-cd pokecatalogo
+git clone https://github.com/oLupim/AP2-DAOC
+cd AP2-DAOC
 npm install
 npm run dev
 ```
