@@ -1,38 +1,54 @@
 # 🧩 PokéCatálogo
 
-Aplicação web desenvolvida em React com Tailwind CSS, que consome dados da PokeAPI para exibir um catálogo interativo de Pokémons.  
-Permite listar, buscar e visualizar detalhes de cada Pokémon de forma simples e responsiva.
+Aplicação web desenvolvida em React com Tailwind CSS, que consome dados da PokeAPI para exibir um catálogo interativo de Pokémons. O projeto permite listar, buscar e visualizar detalhes de cada Pokémon de forma simples e responsiva.
 
----
+## ✨ Funcionalidades
 
-## 🚀 Tecnologias utilizadas
-- **React (Vite)**
-- **Tailwind CSS**
-- **JavaScript**
-- **PokeAPI**
+* Listagem inicial dos primeiros Pokémons.
+* Sistema de busca por nome para encontrar um Pokémon específico.
+* Visualização de detalhes (ID, altura, peso, tipos) em um modal ao clicar em um card.
+* Design totalmente responsivo, adaptável para desktops, tablets e celulares.
+* Feedback visual com um indicador de carregamento durante as buscas.
 
----
+## 🚀 Tecnologias Utilizadas
 
-## ⚙️ Instruções de instalação e execução
+* **React (Vite):** Biblioteca para a construção da interface de usuário.
+* **Tailwind CSS:** Framework CSS para estilização moderna e ágil.
+* **JavaScript:** Linguagem de programação principal.
+* **PokeAPI:** API REST gratuita para consulta dos dados dos Pokémons.
 
-```bash
-git clone https://github.com/oLupim/AP2-DAOC
-cd AP2-DAOC
-npm install
-npm run dev
-```
+## ⚙️ Instruções de Instalação e Execução
 
-## 🌐 API utilizada
+Para executar este projeto localmente, siga os passos abaixo:
 
-PokeAPI – Base pública e gratuita de dados sobre Pokémons.
-Documentação oficial: https://pokeapi.co/docs/v2
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/oLupim/AP2-DAOC.git](https://github.com/oLupim/AP2-DAOC.git)
+    ```
 
-🔗 Endpoints usados
+2.  **Acesse o diretório do projeto:**
+    ```bash
+    cd AP2-DAOC
+    ```
 
-Listagem de Pokémons:
-https://pokeapi.co/api/v2/pokemon?limit=20&offset=0
+3.  **Instale as dependências necessárias:**
+    ```bash
+    npm install
+    ```
 
-Buscar Pokémon pelo nome:
-https://pokeapi.co/api/v2/pokemon/{nome}
-Exemplo: https://pokeapi.co/api/v2/pokemon/pikachu
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+    Após iniciar, a aplicação estará disponível no seu navegador em `http://localhost:5173` (ou outra porta indicada no terminal).
 
+## 🌐 API Utilizada
+
+Este projeto utiliza a **PokeAPI**, uma base de dados pública e gratuita sobre o universo Pokémon.
+
+* **Documentação Oficial:** [https://pokeapi.co/docs/v2](https://pokeapi.co/docs/v2)
+
+### Endpoints Usados
+
+* **Listagem de Pokémons:** `https://pokeapi.co/api/v2/pokemon?limit=20&offset=0`
+* **Buscar Pokémon pelo nome:** `https://pokeapi.co/api/v2/pokemon/{nome}` (Ex: `.../pokemon/pikachu`)
