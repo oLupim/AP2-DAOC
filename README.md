@@ -23,7 +23,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/oLupim/AP2-DAOC.git](https://github.com/oLupim/AP2-DAOC.git)
+    git clone https://github.com/oLupim/AP2-DAOC.git
     ```
 
 2.  **Acesse o diretório do projeto:**
