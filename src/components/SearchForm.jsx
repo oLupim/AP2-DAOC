@@ -8,7 +8,7 @@ export default function SearchForm({ value, onChange, onSubmit }) {
         type="text"
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        placeholder="Buscar Pokémon..."
+        placeholder="Buscar Pokémon pelo Nome ou ID"
         className="border border-gray-300 rounded-lg px-4 py-2 w-full sm:w-80 focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
 
